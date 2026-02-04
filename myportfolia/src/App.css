@@ -1,0 +1,67 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+/* Section */
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+  font-size: 14px;
+}
